@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="CSS\styles.css" />
+  <title>PROJECT</title>
+  <link rel="icon" href="images\favicon.ico" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav
+    class="navbar navbar-expand-lg navbar-dark fixed-top <!-- used make a transparent to carousel with sticky effect -->">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images\logoAsteria.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Industries
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Defence and home-land security</a></li>
+              <li><a class="dropdown-item" href="#">Oil and Gas</a></li>
+              <li><a class="dropdown-item" href="#">Mapping</a></li>
+              <li><a class="dropdown-item" href="#">Mining</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Drones</a></li>
+              <li><a class="dropdown-item" href="#">Skydeck</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active">Drone-as-a Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active">Drone Knowlwdge Cloud</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Carousel-->
+  <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <li data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></li>
+      <li data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></li>
+      <li data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/drone_map.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item ">
+        <img src="images/Header Banner- Agriculture.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item ">
+        <img src="images/mountain_map.jpg" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+  </div>
+
+  <!--poster-->
+  <div id="poster">
+    <div id="article">
+      <div class="text-heading">
+        <h3>Actionable Intelligence from Aerial data</h3>
+      </div>
+      <div class="writing">
+        <p>Asteria Aerospace Limited is a full-stack drone technology company providing actionable intelligence
+          from
+          aerial data.Asteria develops deeply customized drone solutions for government and enterprise applications
+          using its in-house hardware design, software development, and manufacturing capabilities.</p>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- cards -->
+  <div id="cards">
+    <div class="item item1"><img src="images\Col-1.jpg" alt=""></div>
+    <div class="item item2"><img src="images\Col-2.jpg" alt=""></div>
+    <div class="item item3"><img src="images\Col-3.jpg" alt=""></div>
+    <div class="item item4"><img src="images\Col-4.jpg" alt=""></div>
+    <div class="item item5"><img src="images\Col-5.jpg" alt=""></div>
+    <div class="item item6"><img src="images\Col-6.jpg" alt=""></div>
+    <div class="item item7"><img src="images\Col-7.jpg" alt=""></div>
+    <div class="item item8"><img src="images\Col-8.jpg" alt=""></div>
+
+
+  </div>
+  <!--   skydeck -->
+  <div id="skydeck">
+    <div class="skydeckimg"><img src="images\Sky-Deck.jpg" alt="">
+    </div>
+    <div class="skydecktext">
+      <div class="caption">
+        <h3> SkyDeck</h3>
+        <h5>Drone to Insights made Easy</h5>
+      </div>
+      <div class="captiontext">
+        <p>Asteria's cloud-based drone operations platform for end-to-end</br>drone-as-a-service solution.</p>
+      </div>
+      <div class="captionbutton">
+        <a href="https://www.skydeck.com/" target="_blank">
+          <button type="button" class="btn btn-primary">Know More</button>
+        </a>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--    products -->
+  <div class="products">
+    <h2>Our Products</h2>
+  </div>
+  <div class="prodcontainer">
+    <img src="images\A-200.jpg" alt="">
+    <img src="images\A-200XT.jpg" alt="">
+    <img src="images\A-15.jpg" alt="">
+    <img src="images\A-410.jpg" alt="">
+  </div>
+  <!--  daas -->
+  <div id="daas">
+    <div class="daastext">
+      <div class="caption">
+        <h3>Drone-as-a-Service</h3>
+      </div>
+      <div class="captiontext">
+        <p>Enhance operational efficiency without investing in hardware, software, and analytics using
+          Drone-as-a-Service solution.</p>
+      </div>
+      <div class="captionbutton">
+        <a href="https://www.skydeck.com/" target="_blank">
+          <button type="button" class="btn btn-primary">Know More</button>
+        </a>
+      </div>
+
+    </div>
+    <div class="daasimg"><img src="images\Daas.jpg" alt="">
+    </div>
+  </div>
+  <!-- in-news -->
+  <div class="in-news">
+    <h2>In the News</h2>
+  </div>
+  <!-- <div id="newscard">
+    <div class="item items1"><img src="images\Col-1.jpg" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, amet!</p>
+    </div>
+    <div class="item items2"><img src="images\Col-2.jpg" alt=""></div>
+    <div class="item items3"><img src="images\Col-3.jpg" alt=""></div>
+    <div class="item items4"><img src="images\Col-4.jpg" alt=""></div>
+  </div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <div class="card">
+          <img src="images\649beac7b0554_Asteria Innovating in Drones_News.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://asteria.co.in/news/innovating-in-drones-with-ai-5g-cloud">Innovating
+                in drones with AI, 5G, Cloud</a></h5>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <img src="images/649be99c83ec0_Drones-World-E-magazine_News.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://asteria.co.in/news/drones-world-magazine-interview">Drones
+                World Magazine Interview</a>
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <img src="images/649be495569cd_Drones_The-Sunrise-Sector_News.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://asteria.co.in/news/drones-the-sunrise-sector">Drones
+                -The Sunrise Sector</a></h5>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <img src="images/64706f8635f24_A410-XT-Small-Category_News Image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><a
+                href="https://asteria.co.in/news/asteria-aerospace-receives-type-certification-for-its-surveillance-inspection-drone-a410-xt">Asteria
+                Aerospace receives type certification for its surveillance & inspection drone A410-XT</a></h5>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="explorebutton">
+    <a href="https://www.skydeck.com/" target="_blank">
+      <button type="button" class="btn btn-primary">Explore to know More</button>
+    </a>
+  </div>
+
+  <!--testimonial-->
+  <section class="container-test">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="customer">
+        <h3>Customer's Speak</h3>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <p>
+            <i class='bx bxs-quote-alt-left'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+            consequatur molestias vel, doloremque omnis
+            nam eligendi necessitatibus quos cumque cum et. Numquam animi quidem sit nesciunt nam deleniti dolores odio
+            corrupti, eos molestiae, nobis sequi? Ullam ea quos temporibus aliquid tempore. Exercitationem unde cumque
+            nihil provident! Quasi, nesciunt! Similique, hic!<i class='bx bxs-quote-alt-right' style='color:black'></i>
+          </p>
+          <div class="details">
+            <span class="name">
+              suvankar Singha
+            </span>
+            <span class="job">
+              web developer
+            </span>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <p>
+            <i class='bx bxs-quote-alt-left'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+            consequatur molestias vel, doloremque omnis
+            nam eligendi necessitatibus quos cumque cum et. Numquam animi quidem sit nesciunt nam deleniti dolores odio
+            corrupti, eos molestiae, nobis sequi? Ullam ea quos temporibus aliquid tempore. Exercitationem unde cumque
+            nihil provident! Quasi, nesciunt! Similique, hic!<i class='bx bxs-quote-alt-right' style='color:black'></i>
+          </p>
+          <div class="details">
+            <span class="name">
+              suvankar Singha
+            </span>
+            <span class="job">
+              web developer
+            </span>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <p>
+            <i class='bx bxs-quote-alt-left'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+            consequatur molestias vel, doloremque omnis
+            nam eligendi necessitatibus quos cumque cum et. Numquam animi quidem sit nesciunt nam deleniti dolores odio
+            corrupti, eos molestiae, nobis sequi? Ullam ea quos temporibus aliquid tempore. Exercitationem unde cumque
+            nihil provident! Quasi, nesciunt! Similique, hic!<i class='bx bxs-quote-alt-right' style='color:black'></i>
+          </p>
+          <div class="details">
+            <span class="name">
+              suvankar Singha
+            </span>
+            <span class="job">
+              web developer
+            </span>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <!--  </footer> -->
+  <footer class="menu">
+    <div id="imp-link" class="unipading">
+      <div class="div-33">
+        <h3>ABOUt us</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nulla, velit quo in labore
+          sapiente.</p>
+      </div>
+      <div class="div-33" id="footer-menu-container">
+        <h3>
+          important link
+        </h3>
+        <ul id="footer-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="div-33">
+        <h3>Contact Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque quos perferendis
+          consequuntur delectus sed assumenda fugiat temporibus voluptatibus facilis!</p>
+      </div>
+
+    </div>
+    <div id="copyright">
+      <p>copyright &copy; Suvanakar Singha</p>
+    </div>
+  </footer>
+  <script src="js\script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
